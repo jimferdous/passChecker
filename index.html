@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test App</title>
+  </head>
+  <body>
+      <div id="password-strength"> 
+        <input id="password-input" class="form" 
+        type="password"
+        onKeyUp="measureStrength()"> </input>
+        <br /><br />
+        <span> Your password is: </span>
+        <span id="strength-level"></span>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
